@@ -1,4 +1,4 @@
-# Expected Confusion Matrix-based Threshold Selection for Defect Segmentation in Manufacturing Inspection
+# Expected Confusion Matrix-Based Deployment-Time Threshold Selection for Pre-trained Defect Segmentation Models in Manufacturing Inspection
 
 This repository contains the implementation of **Expected Confusion Matrix-based Threshold Selection (ECMTS)** for binary defect segmentation.
 
@@ -8,9 +8,9 @@ ECMTS selects an image-wise binarization threshold from a model-produced probabi
 
 ### Datasets
 
-- Severstal Steel Defect Detection
+- Severstal Steel Defect Detection (Severstal)
 - Kolektor Surface-Defect Dataset 2 (KolektorSDD2)
-- Magnetic Tile Defect Dataset
+- Magnetic Tile Defect Dataset (MTD)
 
 ### Segmentation backbones
 
@@ -23,7 +23,7 @@ Each backbone is used as an ImageNet-pretrained encoder in a shared U-Net segmen
 ### Threshold selection methods
 
 - Fixed threshold of 0.5
-- Validation-based threshold maximizing mean validation \(F_2\)
+- Validation-based threshold selection \(F_2\)
 - Otsu thresholding
 - Kapur thresholding
 - ECMTS
