@@ -2,7 +2,7 @@
 
 This repository contains the implementation of **Expected Confusion Matrix-based Threshold Selection (ECMTS)** for binary defect segmentation.
 
-ECMTS selects an image-wise binarization threshold from a model-produced probability map. It constructs plug-in expected confusion counts and chooses the threshold that maximizes the expected image-wise \(F_2\)-score. Ground-truth masks are not used to select thresholds for test images.
+ECMTS selects an image-wise binarization threshold from a model-produced probability map. It constructs plug-in expected confusion counts and chooses the threshold that maximizes the expected image-wise F2-score. Ground-truth masks are not used to select thresholds for test images.
 
 ## Supported experiments
 
