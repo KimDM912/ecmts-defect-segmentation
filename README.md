@@ -1,4 +1,4 @@
-# Expected Confusion Matrix-Based Deployment-Time Threshold Selection for Pre-trained Defect Segmentation Models in Manufacturing Inspection
+# Expected Confusion Matrix-Based  Threshold Selection for Defect Segmentation Models
 
 This repository contains the implementation of **Expected Confusion Matrix-based Threshold Selection (ECMTS)** for binary defect segmentation.
 
