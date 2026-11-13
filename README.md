@@ -1,4 +1,4 @@
-# Expected Confusion Matrix-Based  Threshold Selection for Defect Segmentation Models
+# Expected Confusion Matrix-Based  Threshold Selection
 
 This repository contains the implementation of **Expected Confusion Matrix-based Threshold Selection (ECMTS)** for binary defect segmentation.
 
